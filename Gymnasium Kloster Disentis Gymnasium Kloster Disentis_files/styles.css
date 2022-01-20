@@ -1,0 +1,928 @@
+@font-face {
+    font-family: 'AvenirLTStd-Light';
+    src: url('webfonts/2A39D3_0_0.eot');
+    src: url('webfonts/2A39D3_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/2A39D3_0_0.woff') format('woff'), url('webfonts/2A39D3_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Light';
+    src: url('webfonts/2A39D3_1_0.eot');
+    src: url('webfonts/2A39D3_1_0.eot?#iefix') format('embedded-opentype'), url('webfonts/2A39D3_1_0.woff') format('woff'), url('webfonts/2A39D3_1_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'KSD-Avenir-Roman';
+  src: url("webfonts/KSD-Avenir-Roman.eot");
+  src: url("webfonts/KSD-Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("webfonts/KSD-Avenir-Roman.woff") format("woff"), url("webfonts/KSD-Avenir-Roman.ttf") format("truetype"), url("webfonts/KSD-Avenir-Roman.svg#open_sans_condensedbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KSD-Avenir-Book';
+  src: url('webfonts/KSD-Avenir-Book.eot?#iefix') format('embedded-opentype'),  url('webfonts/KSD-Avenir-Book.woff') format('woff'), url('webfonts/KSD-Avenir-Book.ttf')  format('truetype'), url('webfonts/KSD-Avenir-Book.svg#KSD-Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'KSD-Avenir-Black';
+  src: url("webfonts/KSD-Avenir-Black.eot");
+  src: url("webfonts/KSD-Avenir-Black.eot?#iefix") format("embedded-opentype"), url("webfonts/KSD-Avenir-Black.woff") format("woff"), url("webfonts/KSD-Avenir-Black.ttf") format("truetype"), url("webfonts/KSD-Avenir-Black.svg#open_sans_condensedbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body .fancybox-skin {
+    padding: 0 !important;
+}
+
+* {
+  margin:0px;
+  padding:0px;  
+}
+
+
+body {
+    font-size: 15px;
+    font-family: 'KSD-Avenir-Book';
+  background: #f6f3e1;
+}
+
+strong, b {
+  font-weight:normal;
+  font-family: 'KSD-Avenir-Black';
+}
+
+/* Header */
+
+.navleft .unavi3, .navright .unavi3 {
+  display:none;
+}
+
+#start .-logo .left {
+    /*background-image: url(../img/gymnasium.jpg);*/
+    background-position: left;
+    /*left: 6px;*/
+  width: 88px;
+  right:auto;
+  padding-top: 9px;
+  border-right:10px solid #fff;
+}
+.en #start .-logo .left {
+  padding-top: 10px;
+  font-size:12px;
+  line-height:1em;
+}
+
+#start .-logo .right {
+    /*background-image: url(../img/internat.jpg);*/
+    background-position: right;
+    /*right: 7px;*/
+  width: 88px;
+  left:auto;
+  padding-top: 20px;
+  border-left:10px solid #fff;
+}
+.en #start .-logo .right {
+  padding-top: 3px;
+  font-size:12px;
+  line-height:1em;
+}
+
+#start .-logo a {
+    display: block;
+    position: absolute;
+    /*top: 7px;*/
+  top:0;
+    right: 0;
+  bottom:0;
+    /*bottom: 5px;*/
+    left: 0;
+    xvisibility: hidden;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-color: #FE0000;
+  color:#fff;
+  text-align:center;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+#start .-logo a:hover,
+#start .-logo a.-active,
+#start .-logo a.-arrow_hover {
+    xvisibility: visible;
+    opacity: 1;
+}
+
+.header {
+  height:90px;
+  background: #f8edb7;
+  position:fixed;
+  z-index:25;
+  width:100%;
+  border-bottom:10px #f6f3e1 solid;
+}
+
+footer {
+    background: #f8edb7;
+    height: 30px;
+  padding-top:10px;
+    width: 100%;
+    border-top: 10px #f6f3e1 solid;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+  z-index:3;
+}
+
+
+
+footer div {
+  max-width: 1200px;
+    margin: 0 auto;
+  text-align:center;
+}
+
+.footerwrapper {
+  display: inline;  
+}
+
+footer span {
+  color: #000;
+  line-height:25px;
+  padding-left: 45px;
+  display: inline-block;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}  
+
+.contenthome {
+  padding-top:99px;  
+}
+
+.header .navitop, .header .logo {
+  float: left;  
+  padding-top:41px;
+}
+
+.header .logo img {
+  width:280px;
+  height:auto;
+}  
+
+.header .logo {
+  width:23%;
+  padding-top: 22px;
+  
+}
+
+.header .navitop li {
+  float: left;
+  list-style:none;
+  padding-right: 2.5%;  
+}
+
+.header .navitop {
+  width:50%;  
+}
+
+
+
+.header .navitop a {
+    color: rgb(130, 130, 130);
+    padding: 20px 5px 3px 5px;
+  text-decoration:none;
+  font-size:1.667em;
+  text-transform:uppercase;
+}
+
+.navitop a:hover {
+    text-decoration: underline;
+    background-image: url(../img/ora/arrow_nav.png);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+  text-decoration:underline;
+}
+
+.unesco {
+  background: none !important;
+  margin-top:20px;
+  position:fixed;
+  bottom:50px;
+  z-index:1;
+  width:18%;
+}
+.unesco img {
+  width:65%;
+  height:auto;
+}
+
+.servicenavi {
+  margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+  width: auto;
+}
+.servicenavi li {
+  list-style:none;
+  display: inline;
+  padding:10px 22px 10px 22px;
+}
+.servicenavi li a {
+  text-transform:uppercase;
+  font-size: 1.3em;
+}
+
+.servicenaviwrapper {
+  width: 55%;
+  float: left;
+  /* padding-right:1%; */
+}
+
+.servicenavi .active a {
+  background-image: url(../img/nav-active.png);
+    background-position: center top 1px;
+    background-repeat: no-repeat;
+  color: #000;
+  padding-top:20px;
+}
+
+
+.servicenavi a:hover {
+    background-image: url(../img/nav-active.png);
+    background-position: center top 1px;
+    background-repeat: no-repeat;
+  padding-top:20px;
+}
+
+.adresse {
+  float: right;  
+  color: #828282;
+  line-height:20px;
+  padding-top:16px;
+}
+
+.header a, .navitopmob  a {
+  color: #000; 
+  text-decoration: none;  
+}
+
+.service {
+  height:90px;  
+}
+
+.suche {
+  height:40px;
+  line-height:40px;
+  width:100%;
+  padding-left:1%;  
+  color: #828282;
+  font-size:1.667em;
+  background: none;
+  font-family: 'KSD-Avenir-Book';
+
+}
+
+.search {
+  position: relative;  
+  width:49.593%;
+  margin-top:23px;
+  float: left;
+}
+
+
+.search input[type=submit] {
+    height: 18px;
+    width: 19px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+    background: transparent url(../img/lupe.png) no-repeat;
+    border: none;
+}
+
+input {
+  outline: none;  
+}
+
+.downloads {
+    background: url(../img/download.svg) no-repeat;
+    background-size:contain;
+    background-position: right;
+    width: 32px !important;
+}
+
+.downloads.active, .downloads:hover, #page875 .downloads {
+    background: url(../img/download_hover.svg) no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.foto {
+    background: url(../img/camera.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+    width: 32px !important;
+}
+
+.foto.active, .foto:hover, #page662 .foto {
+    background: url(../img/camera_a.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+
+.video {
+    background: url(../img/video.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+   /* width: 7.6%;*/
+  width:25px;
+}
+
+
+.video.active, .video:hover, #page661 .video {
+    background: url(../img/video_a.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+
+.contact {
+    background: url(../img/mail.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+    width: 28px !important;
+}
+
+.contact.active, .contact:hover, #page365 .contact {
+    background: url(../img/mail_a.png) no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.shop {
+    background: url(../img/cart.png) no-repeat;
+    background-size:contain;
+    background-position:right;
+    width: 26px !important;
+  height: 41px !important;
+  margin-top:1px;
+  margin-left:5% !important;
+}
+
+.shop.active, .shop:hover, #page603 .shop {
+    background: url(../img/cart_a.png) no-repeat;
+    background-size:contain;
+    background-position:right;
+}
+
+
+.icons {
+  float: right;
+    width: 13%;
+    padding-top: 29px;
+}
+
+.icons a {
+    float: right;
+    height: 46px;
+  margin-left:6%;
+}
+
+.searchicon {
+    background: url(../img/search.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 26px;
+  display: block !important;
+  margin-left:4% !important;
+}
+
+.searchicon.active, .searchicon:hover, #page663  .searchicon{
+    background: url(../img/search_a.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-sword {
+    width: 100%;
+  padding: 3px 4px;
+  border: 1px #a9a9a9 solid;
+}
+
+.tx-indexedsearch-noresults {
+  display: none;  
+}
+
+/* Content */
+
+#start .-heightFull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#start .-widthHalf {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+#start .-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 5px solid #fff;
+}
+
+#start .-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-left: 5px solid #fff;
+}
+
+#start .-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#start .-logo {
+    background-image: url(../img/kreuz_rot.svg);
+  border:7px solid #fff;
+    width: 186px;
+    height: 186px;
+    position: absolute;
+    margin: auto;
+    margin-top: -88px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+#start .-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-left: 5px solid #fff;
+}
+
+#start .-left .-showSlides {
+    left: 20px;
+}
+
+#start .-right .-showSlides {
+    right: 20px;
+    left: auto;
+}
+
+#start .-next {
+    position: absolute;
+    z-index: 4;
+    width: 86px;
+    height: 29px;
+    background-image: url(../img/start-arrows-left.png);
+    background-position: 146px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    padding: 16px 30px 0;
+    font-size: 11px;
+    text-decoration: none;
+    top: 50%;
+    margin-top: -22px;
+    left: 8px;
+    cursor: pointer;
+}
+
+#start .-heightFull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#start .-left .-heightFull {
+  background-image: url(../img/gkd_schule.jpg);
+}
+#start .-right .-heightFull {
+  background-image: url(../img/gkd_maedcheninternat.jpg);
+}
+
+#start.unterricht .-left .-heightFull {
+  background-image: url(../img/gkd_chor.jpg);
+}
+#start.unterricht .-right .-heightFull {
+  background-image: url(../img/gkd_knabeninternat.jpg);
+}
+
+#start .-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.-pattern > div {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: relative;
+    top: 0px;
+  /*overflow:scroll;*/
+}
+
+.navright, .navleft {
+  visibility:hidden;
+}
+
+.-pattern ul {
+    list-style-type: none;
+    
+
+}
+
+
+.-pattern ul li a {
+  font-family: 'KSD-Avenir-Book';
+  font-size:1.667em;
+  color: #fff;
+  text-decoration:none;
+  display: block;
+
+}
+
+.-pattern ul li:hover {
+  background: rgba(255, 255, 255, .2);
+}
+
+.-pattern ul li  {
+  border-top:1px #e4e4e4 solid;
+  padding:4px 0 0 123px;
+}
+
+.width {
+    position: relative;
+
+    margin: auto;
+}
+
+#start .-widthHalf {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+
+.headercontent, #wrapper{
+  max-width:1200px;
+  /*max-width:1400px;*/
+  margin:0 auto;  
+}
+#wrapper {
+  padding-top:100px;
+}
+
+.suche {
+    -webkit-border-radius:0; 
+    border-radius:0;
+   -webkit-appearance: none;
+  border:1px #828282 solid;
+}
+
+
+.tx-indexedsearch p {
+  text-indent:inherit !important;
+}
+
+.titlesuchresultat a {
+  color: #000 !important;
+  text-decoration:none;
+    font-family: 'KSD-Avenir-Book';
+    margin-bottom: 13px;
+    margin-top: 30px;
+    font-size: 17px;
+    text-decoration: none;
+  
+}
+
+#title .browsebox li:before {
+  content: "";
+    
+}
+
+#title .browsebox li {
+  margin: 0px;  
+}
+
+.tx-indexedsearch-descr.descr {
+  color: #828282;
+}
+
+.pathsuche  {
+  margin-top: 18px !important;
+  margin-bottom:0px !important;
+}
+
+.pathsuche a {
+  color: red !important;  
+  text-decoration: none;
+}
+.tx-indexedsearch-redMarkup {
+  font-weight: normal;  
+}
+
+.tx-indexedsearch .tx-indexedsearch-browsebox li {
+    display: inline;
+  background: none;
+    margin-right: 8px !important;
+  background-image: none !important;
+  padding: 0 !important;
+  margin-left:0px !important;
+}
+
+.browsebox {
+  margin-bottom: 20px;  
+}
+
+.tx-indexedsearch-browselist-currentPage a, .tx-indexedsearch-sw, .tx-indexedsearch-descr .tx-indexedsearch-redMarkup {
+    color: red !important;
+  font-weight:normal !important;
+}
+
+.tagebuch .content {
+    padding-left: 0px;
+    font-family: 'KSD-Avenir-Book';
+    margin-bottom: 0px;
+    text-indent: 0px;
+  color: #000;
+}
+
+.tagebuch h4 {
+    color: #000 !important;
+    margin: 0;
+    padding-bottom: 0;
+  font-size:15px !important;
+  /*padding-top:14px !important;*/
+}
+
+.tagebuch {
+    padding: 10px 26px;
+}
+
+.map {
+  width:100%;
+  text-align:center;  
+}
+
+.mob {
+  display: none;  
+}
+
+.dtonly {
+  display: block;  
+}
+
+.fancybox-overlay {
+      background-color: rgba( 55, 55, 55, .9 );
+}
+
+#imagelightbox-close, .imagelightbox-arrow  {
+  outline: none;  
+}
+
+#imagelightbox-loading {
+  displaY: none !important;  
+}
+
+#imagelightbox-overlay {
+  top:90px;  
+}
+
+.fancybox-opened .fancybox-skin {
+  touch-action: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#imagelightbox-close {
+  top:110px;  
+  cursor: pointer;
+}
+
+.fancybox-opened .fancybox-skin{
+  border: 15px #f7f5ef solid;
+  border-radius: 0;
+}
+
+.fancybox-close {
+    position: absolute;
+    top: -55px;
+    right: -56px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+}
+
+#imagelightbox {
+    cursor: pointer;
+    position: fixed;
+    z-index: 10000;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 15px #f7f5ef solid;
+}
+
+#imagelightbox-close:hover, #imagelightbox-close:focus {
+    background-color:inherit;
+}
+
+.imagelightbox-arrow-right {
+    right: 2.5em;
+    background: url(../img/pfeilrechts.png) no-repeat left top !important
+}
+
+.imagelightbox-arrow-left {
+    left: 2.5em;
+     background: url(../img/pfeillinks.png) no-repeat left top !important;
+}
+
+#imagelightbox-close, .fancybox-close {
+   background: url(../img/close.png) no-repeat left top !important;
+   background-size: cover !important;
+}
+
+#mailform label {
+  display:inline-block;
+  width:25%;
+  margin-bottom:25px;
+}
+#mailform input {
+  display:inline-block;
+  width:70%;
+  border:1px solid #000;
+  border-radius:0;
+  line-height:1.8em;
+  height:1.8em;
+  padding:0 4px;
+  font-size: 15px;
+  font-family: 'KSD-Avenir-Book';
+}
+#mailform input#mailformsubmit {
+  margin-left: 26%;
+  width: 72%;
+  background-color:#f6f3e1;
+}
+#mailform select {
+  display:inline-block;
+  width:72%;
+  border:1px solid #000;
+  border-radius:0;
+  line-height:1.8em;
+  height:1.8em;
+  padding:0 4px;
+  font-size: 15px;
+  font-family: 'KSD-Avenir-Book';
+}
+
+.infobuttonstart{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    z-index: 1000;
+}
+.infobuttonstart > div{
+    height: 130px;
+    width: 350px;
+}
+.infobuttonstart img {
+    width: 100%;
+    height: auto;
+  background-color:#fff;
+}
+/* Italienisch */
+/*body.it .subnav div, body.it .content.right .item.testimonial, body.it .infobuttonstart {
+  display:none;
+}*/
+
+/* Tablet */
+
+@media (max-width: 1100px) {
+  .header .navitop a {
+    font-size:1.2em;  
+  }
+  
+  .adresse {
+    font-size:0.8em  
+  }
+  
+  .infobuttonstart {
+    right: 5px;
+    top: 62px;
+    height: 280px;
+    width: 280px;
+  }
+  
+  .infobuttonrund {
+	right: inherit;
+    left: 50px;	  
+  }
+}
+
+@media (max-width: 980px) {
+  .infobuttonrund {
+    bottom: 36px !important;
+
+    width: 140px !important;
+    left: 20px !important;
+    height: 110px !important;
+    padding-top: 30px !important;
+    font-size: 13px !important;
+  }
+}
+
+
+.page-navigation{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.page-navigation p{
+    font-size: 10px;
+}
+.f3-widget-paginator li:before{
+    content:none;
+}
+
+
+#cookieBanner{
+    position: fixed;
+    background-color: #f8edb7;
+    color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 50px;
+	display:none;
+}
+
+#cookieBanner button {
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #000;
+    padding: 4px 5px;
+    float: right;
+	outline:none;
+	cursor:pointer;
+}
+
+#cookieBanner a {
+	color:#000;	
+}

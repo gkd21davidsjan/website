@@ -1,0 +1,133 @@
+
+
+.header .navitop, .header .logo {
+
+    padding-left: 1%;
+}
+
+.icons {
+	padding-right: 1%;
+	width: 17%;
+}
+.en .icons {
+	width: 15%;
+}
+
+.unterseite .search {
+	padding-left:1%;
+}
+
+/*.icons .csc-default a {
+	padding-right:3%;
+}*/
+ 
+.adresse.dtonly {
+	padding-right:1%;
+}
+
+.servicenavi {
+	width: 100%;
+
+}
+.servicenaviwrapper {
+    width: 47%;
+    float: left;
+	padding-right:3%;
+}
+.en .servicenaviwrapper {
+    width: 50%;
+	padding-right:2%;
+}
+
+.servicenavi li {
+	padding-left:15px;
+	padding-right:0;
+}
+.en .servicenavi li a {
+    font-size: 1.200em;
+}
+
+.content.right .item {
+	min-height: 172px;
+}
+
+.content.middle {
+	/*width:70.6%;*/
+	width:calc(98% - 280px);
+	margin: 0px 1% 10px 1%;
+}
+
+.content.right {
+	/*width: 72.5%;**/
+	width:calc(98% - 280px);
+}
+
+.content.right .item{
+	width: 29.5%;
+	float: left;
+	margin-left: 1%;
+}
+
+.search {
+    width: 49%;
+	margin-left:1%;
+}
+
+.suche {
+	width:98%;
+}	
+
+.item .right-title {
+   	width: 80%;
+    padding:0 10%;
+
+}
+
+#mc_embed_signup label {
+    width: 100%;
+}
+
+#mc_embed_signup input {
+    width:calc(100% - 8px);
+    margin-left: 0;
+
+}
+
+a.gallery img {
+    max-width: 100% !important;
+    height: auto;
+    width: auto;
+    max-height: 103px !important;
+}
+
+.vorschaubild a img {
+    border: none !important;
+    max-height: 180px !important;
+    max-width: inherit !important;
+}
+
+@media (max-width: 1040px){
+	.welcome {
+		min-height: 916px;
+	}
+
+	.welcome .kinder{
+		width:100%;
+		margin-bottom: 50px;
+	}
+
+	.welcome .eltern{
+		width:100%;
+	}
+}
+
+
+@media (max-width: 1200px) and (min-width: 800px) and (orientation:landscape) {
+	#imagelightbox {
+		max-width:75%;
+		max-height:75%;
+		top:12.7% !important;
+		height:auto !important;
+		width:auto !important;
+	}
+}

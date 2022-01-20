@@ -1,0 +1,1284 @@
+.unterseite .search {
+    width: 20%;
+}
+
+.unterseite .search form {
+    width: 100%;
+    margin: 0;
+}
+
+.start .search form {
+    width: 100%;
+    margin: 0;
+}
+
+.content a {
+    color: #828282;
+}
+
+.subnav {
+    float: left;
+    width: 280px;
+    /*width:20%;*/
+    line-height: 1.1;
+    font-size: 17px;
+    padding-bottom: 1px;
+}
+
+.subnav a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.subnav .gymnasium,
+.subnav .internat {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    min-height: 100px;
+}
+
+.subnav .nav2 {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: height 0s, visibility 0s, opacity 0.5s linear;
+    -moz-transition: height 0s, visibility 0s, opacity 0.5s linear;
+    -ms-transition: height 0s, visibility 0s, opacity 0.5s linear;
+    -o-transition: height 0s, visibility 0s, opacity 0.5s linear;
+    transition-property: height 0s, visibility 0s, opacity 0.5s linear;
+    height: 0;
+
+}
+
+.subnav .open .nav2 {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.subnav .unavi3 {
+    display: none;
+}
+
+.unavi3 li {
+    border-top: 1px #f9f7f3 solid;
+}
+
+.unavi3 li a {
+    padding: 10px 0 5px 0;
+}
+
+.unavi3 li:first-child {
+    border-top: none;
+}
+
+.subnav .unavi4 {
+    padding-left: 15px;
+    display: none;
+}
+
+.subnav .unavi3 a {
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Book';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.unavi3 .active .unavi4 {
+    display: block;
+}
+
+.subnav li.active .unavi3 {
+    display: block;
+}
+
+.subnav a:hover,
+.subnav .active a,
+.subnav .aktiv,
+.subnav .gymnasium:hover,
+.subnav .internat:hover {
+    color: red;
+}
+
+.subnav .active li a {
+    color: #828282;
+}
+
+.subnav .active li>a:hover,
+.subnav .active li.active>a {
+    color: red;
+}
+
+.subnav .gymnasium,
+.subnav .internat {
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.gymnasium .navgymnasium .unavi3 li {
+    padding-left: 15px;
+}
+
+.internat .navinternat .unavi3 li {
+    padding-left: 15px;
+}
+
+.subnav li {
+    list-style: none;
+    padding: 0 0 5px 0;
+}
+
+.subnav .nav2>li {
+    padding: 10px 20px 2px 20px;
+    border-top: 1px #f9f7f3 solid;
+}
+
+.nav2>li:first-child {
+    border-top: none;
+}
+
+.subnav .subnav1 {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.subnav .subnav2,
+.subnav .subnav3 {
+    padding-left: 20px;
+    padding-top: 5px;
+    display: none;
+}
+
+.nav2 li.active .unavi3,
+.unavi3 li.active .unavi4,
+.unavi4 li.active .unavi5 {
+    display: block;
+}
+
+.subnav1 {
+    display: none;
+}
+
+.subnav1.active {
+    display: block;
+}
+
+.subnav li a {
+    padding-bottom: 5px;
+    display: block;
+}
+
+.subnav .navtitle {
+    font-size: 38px;
+    line-height: 1.1em;
+    padding: 20px 20px 14px 20px;
+    cursor: pointer;
+    background-image: url(../img/nav.png);
+    background-position: right 20px center;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+}
+
+.subnav .open .navtitle {
+    background-image: url(../img/nav-active.png);
+}
+
+.subnav .navtitle a {
+    font-family: 'KSD-Avenir-Black';
+}
+
+.subnav .navtitle a.active {
+    color: red;
+}
+
+.subnav .nav2 a {
+    font-family: 'KSD-Avenir-Black';
+}
+
+.subnav .nav2 .unavi3 a {
+    font-family: 'KSD-Avenir-Book';
+}
+
+
+.subnav>div {
+    background: #f8edb7;
+}
+
+.subnav>div.open {
+    background: #f8edb7;
+}
+
+.content {
+    float: left;
+}
+
+.content.middle {
+    width: calc(78% - 280px);
+    margin: 0 1% 50px 1%;
+    background: white;
+}
+
+.content.right {
+    width: 18%;
+}
+
+.mittelbild {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mittelbild img {
+    max-width: 600px;
+    height: auto;
+}
+
+a.gallery {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.gallery .mittelbild {
+    margin-top: 0;
+}
+
+a.gallery.outer {
+    margin-right: 0;
+}
+
+a.gallery img {
+    max-width: 100% !important;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.gallerybox.audio .vorschaubild {
+    position: relative;
+}
+
+.gallerybox.audio .vorschaubild iframe {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gallerybox {
+    clear: both;
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.gallerybox a {
+    display: none;
+}
+
+.gallerybox a.first {
+    display: block;
+}
+
+.vorschaubild {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 10px #f8edb7 solid;
+}
+
+.vorschaubild a img {
+    border: none !important;
+    max-height: 180px !important;
+    max-width: inherit !important;
+}
+
+.textbox {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 10px #f8edb7 solid;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: table;
+    line-height: 1.2em;
+}
+
+.textbox p {
+    text-indent: inherit !important;
+    font-weight: bold;
+    padding: 0 8%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vorschaubild a {
+    width: 100%;
+    margin: 0;
+}
+
+.einleitung {
+    color: #8f8f8f;
+    line-height: 1.1;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.eingerueckt {
+    padding-left: 39px;
+    margin-bottom: 0px;
+    text-indent: 0px;
+    display: block;
+}
+
+#breadcrumb {
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+#breadcrumb a {
+    color: red;
+    text-decoration: none;
+}
+
+#player {
+    display: none;
+}
+
+#title {
+    padding: 50px;
+}
+
+.content.middle p {}
+
+#title .contenttable {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.content ul {
+    padding-left: 15px;
+}
+
+p.align-center {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content.middle p.align-center a {
+    font-family: 'KSD-Avenir-Book';
+}
+
+.content h2 {
+    /*padding-left: 39px;*/
+    margin-bottom: 13px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Black';
+}
+
+h4 {
+    color: red;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Black';
+}
+
+.content h4 a {
+    color: red;
+}
+
+h3 {
+    padding: 14px 0;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Black';
+}
+
+.aufklapper {
+    color: #828282;
+    clear: both;
+    position: relative;
+    /*min-height: 46px;*/
+    margin: 0 -28px 18px -28px;
+    width: 100%;
+}
+
+.aufklapper .klapptitel {
+    background-color: #eceae5;
+    padding: 11px 26px 1px;
+    width: 100%;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.aufklapper.offen .klapptitel {
+    margin-bottom: 8px;
+}
+
+.aufklapper .content {
+    display: none;
+}
+
+.aufklapper.offen .content {
+    display: block;
+    float: none;
+}
+
+.aufklapper h4 {
+    margin-top: 6px;
+    color: red;
+    font-size: 17px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.aufklapper .boxgrau h4 {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.boxgrau {
+    background: #f8edb7;
+    padding: 24px 28px 15px;
+    font-size: 13px;
+    /*float:left;*/
+    margin: 0 39px 8px 39px;
+    width: calc(100% - 137px);
+}
+
+.boxgrau .tease p {
+    font-weight: bold;
+}
+
+
+.aufklapper .boxgrau {
+    margin-left: 67px;
+    float: none;
+
+}
+
+.boxgrau table {
+    border-spacing: 0;
+}
+
+.boxgrau td {
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 0;
+    padding: 5px 0;
+    xline-height: .95;
+    vertical-align: top;
+}
+
+
+#title ul {
+    padding-left: 0px;
+    font-size: 14px;
+    padding-right: 35px;
+    list-style-image: initial;
+    list-style-type: none;
+    list-style-position: initial;
+    clear: both;
+}
+
+.csc-sitemap {
+    background: #eceae5;
+    padding: 24px 28px 15px;
+    font-size: 13px;
+    color: #8f8f8f;
+    float: left;
+    margin: 0 39px 8px 39px;
+    width: calc(100% - 137px);
+}
+
+#title .csc-sitemap ul {
+    float: left;
+    width: calc(100% - 35px);
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 10px;
+}
+
+#title .csc-sitemap ul ul {
+    float: right;
+    width: 40%;
+    clear: none;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#title .csc-sitemap ul ul ul {
+    width: 65%;
+}
+
+#title .csc-sitemap ul ul ul li {
+    width: 65%;
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+
+.csc-textpic-text {
+    width: 100%;
+}
+
+.csc-textpic-text .bilduntertitel {
+    margin-top: -40px;
+    padding-left: 9.39%;
+    /*56px;*/
+    padding-right: 9.39%;
+    margin-bottom: 40px;
+}
+
+#title .csc-textpic-text p {
+    text-indent: 0;
+    font-size: 17px;
+    line-height: 1.1em;
+}
+
+#title li {
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0 0 39px;
+    list-style-type: disc;
+    position: relative;
+}
+
+#title .csc-sitemap li {
+    margin: 0px 0 0 0;
+    padding-bottom: 15px;
+    font-family: 'KSD-Avenir-Book';
+    font-size: 13px;
+    clear: both;
+    width: 100%;
+    float: left;
+}
+
+/*#title li:before {
+    content: "?";
+    font-size: 15px;
+    line-height: 22px;
+  position:absolute;
+  left:-15px;
+  top:-1px;
+}*/
+#title .csc-sitemap li:before {
+    display: none;
+}
+
+#title h1 {
+    font-size: 75px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Black';
+    line-height: 0.96;
+    letter-spacing: -1px;
+    min-height: 298px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: initial;
+    vertical-align: middle;
+    display: table-cell;
+    padding-bottom: 50px;
+}
+
+#title .csc-sitemap h1 {
+    font-size: 14px;
+    color: red;
+    min-height: 14px;
+    padding-bottom: 14px;
+    line-height: 1.3em;
+    border-bottom: none;
+    font-family: 'KSD-Avenir-Book';
+}
+
+#title>div:first-child {
+    display: table;
+    min-height: 325px;
+    height: 325px;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#title p {
+    /*text-indent: 39px;*/
+    margin: 0px 0px 18px 0px;
+  
+}
+
+#title .author p {
+    padding-left: 39px;
+    text-indent: 0px;
+    font-size: 13px;
+    margin-bottom: 31px;
+    margin-top: 25px;
+    font-family: 'KSD-Avenir-Book';
+}
+
+table p,
+#title .boxgrau table p {
+    font-family: 'KSD-Avenir-Book';
+    text-indent: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.contenttable td {
+    vertical-align: top;
+}
+
+#title p.align-center {
+    text-indent: 0px;
+}
+
+.news-list-container p {
+    text-indent: inherit !important;
+}
+
+.news-list-container.tagebuch p {
+    /*text-indent:29px !important;*/
+}
+
+.news-list-container.tagebuch article {
+    /*text-indent:29px !important;*/
+    margin: 0px 0px 18px 0px;
+}
+
+.titeltabelle {}
+
+.news-list-container h4 {
+    padding-bottom: 14px !important;
+}
+
+.news-list-container.tagebuch h4 {
+    padding-bottom: 0 !important;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-left .mittelbild {
+    text-align: left;
+}
+
+.align-center .mittelbild img {
+    float: none;
+}
+
+
+.content.right {
+    width: 20%;
+    /*    background: #eceae5;*/
+    padding-bottom: 50px;
+}
+
+.content.right .item {
+    background: #f8edb7;
+    min-height: 122px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: calc(100% - 20px);
+    max-height: 230px;
+    /* max-height: 148px; */
+    overflow: hidden;
+}
+
+.content.right .item a {
+    /* max-height: 148px; */
+    max-height: 230px;
+    overflow: hidden;
+}
+
+.content.right .item.testimonial,
+.content.right .item.testimonial a {
+    max-height: none;
+}
+
+.content.right .item.testimonial .item {
+    max-height: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.item a.lightbox {
+    text-decoration: none;
+    max-height: 148px;
+    overflow: hidden;
+}
+
+.item p {
+    font-size: 14px;
+    color: #111;
+    margin-top: 10px;
+}
+
+.item .right-title {
+    width: 60%;
+    padding-left: 20%;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #8B8B8B;
+    text-align: center;
+    margin: 0px;
+}
+
+.item .right-image {
+    text-align: center;
+}
+
+.content.right .item a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.content.right .item .caption {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+.content.right .item .playvideo {
+    height: 98%;
+    width: 100%;
+    position: absolute;
+    background: url(../img/playvideo.png) no-repeat;
+    background-position: center center;
+    background-size: auto 50%;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+.content.right .item:hover .caption {
+    display: block;
+}
+
+.content.right .item:hover .playvideo {
+    background: rgba(0, 0, 0, .5) url(../img/playvideo.png) no-repeat;
+    background-position: center center;
+    background-size: auto 50%;
+}
+
+.content.right .item .caption p {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/*.content.right .item p {
+    height:0;
+    opacity: 0;
+    margin-top:0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.content.right .item:hover p{
+    height:20px;
+    opacity: 1;
+    margin-top: 10px;
+}*/
+
+
+.header.fixed {
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navitopmob.fixed {
+    position: fixed;
+}
+
+.quarter {
+    width: 20%;
+}
+
+/* News */
+
+.news-list-container .boxgrau hr {
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.news-list-item {
+    float: left;
+    width: 100%;
+}
+
+#title .news-list-item p {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-indent: 0px;
+}
+
+#title .news-list-item table {
+    width: 100%;
+}
+
+.klapptitel h4 {
+    position: relative;
+}
+
+.klapptitel h4:after {
+    content: '';
+    position: absolute;
+    left: -26px;
+    bottom: 5px;
+    width: 13px;
+    height: 21px;
+    background-image: url(../img/icon_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.offen .klapptitel h4:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: -21px;
+    bottom: 4px !important;
+    top: inherit !important;
+}
+
+.news.klapptitel {
+    padding: 11px 26px 1px;
+}
+
+.offen .news.klapptitel h4:after {
+    top: 30px;
+}
+
+.edisentis .boxgrau .content {
+    color: #828282;
+}
+
+.edisentis .aufklapper .content {
+    color: #000;
+}
+
+.titelkursiv {
+    font-style: italic;
+    font-size: 17px;
+}
+
+/* Newsletter */
+
+#mc_embed_signup {
+    background-color: rgb(236, 234, 229);
+    font-size: 13px;
+    color: rgb(143, 143, 143);
+    padding: 24px 28px 15px 28px;
+    margin: 39px 39px 1em 39px;
+}
+
+#mc_embed_signup>h4 {
+    padding-bottom: 14px;
+    color: red;
+    font-size: 14px;
+}
+
+#mc_embed_signup label {
+    width: 25%;
+    display: inline-block;
+}
+
+#mc_embed_signup input {
+    width: 70%;
+    margin-left: 2%;
+    padding: 3px 4px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+
+#mc-embedded-subscribe {
+    margin-top: 15px;
+    padding: 5px !important;
+    margin-left: 0px !important;
+    cursor: pointer;
+    width: auto !important;
+}
+
+input[type="email"] {
+    border-radius: 0px;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+}
+
+input[type="submit"],
+input[type="text"],
+input[type="password"],
+textarea,
+selected,
+input[type="email"] {
+    border-radius: 0px;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+}
+
+
+/*#sb-body img {
+    border: none;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
+#sb-wrapper {
+    position: absolute;
+    visibility: hidden;
+    max-width: 1200px;
+    max-height: 900px;
+    height: auto !important;
+	left:18% !important;
+}*/
+
+figcaption.csc-textpic-caption {
+    padding-left: 5px;
+}
+
+.language {
+    float: left;
+    width: 9%;
+    padding-top: 45px;
+}
+
+.language li {
+    list-style: none;
+    display: inline-block;
+}
+
+.language .de,
+.language .en,
+.language .it {
+    padding-right: 4px;
+    border-right: 1px solid #000;
+    margin-right: 4px;
+}
+
+
+.welcome {
+    position: absolute;
+    width: 54%;
+    padding: 0 0 30px 0;
+    left: 23%;
+    top: -20px;
+    height: calc(100% + 38px);
+    background-image: url(../img/papier.jpg);
+    z-index: 30;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    display: none !important;
+    min-height: 600px;
+}
+
+.welcome .inner {
+    width: 78%;
+    margin: 2% 3%;
+    height: 79%;
+    padding: 15% 8% 0 8%;
+    float: left;
+    background-image: url(../img/andreaskreuz.svg);
+    background-size: 100% auto;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.contenthome .welcome .close {
+    width: 30px;
+    height: 30px;
+    background: none;
+    background-image: url(../img/close_black.png);
+    background-size: 100%;
+    position: absolute;
+    right: 4%;
+    top: 2.4%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.logo-grau {
+    padding-bottom: 80px;
+}
+
+.welcome a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.welcome img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.welcome p {
+    padding-bottom: 14px;
+}
+
+.welcome h2 {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+.tagesdatum {
+    padding-bottom: 50px;
+}
+
+.kinder {
+    float: left;
+    width: 47%;
+}
+
+.eltern {
+    float: right;
+    width: 47%;
+}
+
+.adresse2 {
+    color: #828282;
+    float: left;
+    width: 50%;
+    display: none;
+}
+
+.welcome .unesco {
+    background: none !important;
+    margin-top: 0;
+    position: static;
+    float: right;
+    width: 40%;
+    text-align: right;
+    display: none;
+}
+
+.welcome .foot {
+    width: 78%;
+    float: left;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    position: absolute;
+    left: 11%;
+    bottom: 15px;
+    display: none;
+}
+
+.fancybox-inner {
+    overflow: hidden !important;
+}
+
+
+@media (max-width: 1240px) {
+    .welcome {
+        width: 65%;
+        left: 17.5%;
+    }
+}
+
+.news-list-item img {
+    height: auto;
+    width: 200px;
+    /*margin-right: -50px;*/
+}
+
+#title .news-list-item p {
+    /*margin-top: -50px;*/
+    width: 70%;
+}
+
+.news-list-item .mittelbild {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.news-list-item .mittelbild {
+    height: 0px;
+}
+
+.news-list-item {
+    padding: 0 0 30px 0;
+}
+
+.news-list-item h2 {
+    padding-bottom: 30px;
+}
+
+.news-single .article .news-img-wrap img {
+    height: 160px;
+    width: 240px;
+    margin-bottom: 50px;
+}
+
+.news-single-rightbox .timePub {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.tx-indexedsearch-form input,
+.tx-indexedsearch-search-submit input {
+    display: inline-block;
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 0;
+    line-height: 1.8em;
+    height: 1.8em;
+    padding: 0 4px;
+    font-size: 15px;
+    font-family: 'KSD-Avenir-Book';
+}
+
+#tx-indexedsearch-searchbox-button-submit {
+    margin-left: 141px;
+    width: 72%;
+    background-color: #f6f3e1;
+}
+
+.tx-indexedsearch-form input {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.tx-indexedsearch-selectbox-searchtype {
+    width: 71.9%;
+    border: 1px solid #000;
+    border-radius: 0;
+    line-height: 1.8em;
+    height: 1.8em;
+    padding: 0 4px;
+    font-size: 15px;
+    font-family: 'KSD-Avenir-Book';
+    margin-left: 80px;
+    margin-bottom: 17px;
+}
+
+.page-navigation {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.page-navigation p {
+    font-size: 10px;
+}
+
+.f3-widget-paginator li:before {
+    content: none;
+}
+
+ul.tx-indexedsearch-browsebox {
+    display: flex;
+    list-style: none;
+}
+
+.tx-indexedsearch-form input,
+.tx-indexedsearch-search-submit input {
+    width: 70%;
+}
+
+.tx-indexedsearch-form {
+    display: flex;
+}
+
+.tx-indexedsearch-searchbox {
+    margin-top: 40px;
+}
+
+#title header h2 {
+
+    font-size: 75px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'KSD-Avenir-Black';
+    line-height: 0.96;
+    letter-spacing: -1px;
+    min-height: 298px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: initial;
+    vertical-align: middle;
+    display: table-cell;
+    padding-bottom: 50px;
+
+}
+
+.news-list-container .news-list-item .mittelbild img {
+    text-align: right;
+    float: right;
+}
+
+
+
+
+/* --- EIGENES CSS --- */
+
+
+#title .ce-bodytext p {
+    text-indent: 0;
+    font-size: 17px;
+    line-height: 1.1em;
+}
+
+
+.index-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx-indexedsearch-selectbox-searchtype {
+    margin-left: 90px;
+}
+
+#tx-indexedsearch-searchbox-button-submit {
+    margin-left: 155px;
+}
+
+h3.empty {
+    margin-bottom: -35px;
+}
+
+#title .paginate-pagination li {
+    list-style-type: none;
+}
+
+.paginate-pagination ul>li>a.page {
+    border: 1px solid #4a4840;
+}
+
+.paginate-pagination a {
+    color: black;
+}
+
+.paginate-pagination {
+    display: flex;
+    justify-content: center;
+}
